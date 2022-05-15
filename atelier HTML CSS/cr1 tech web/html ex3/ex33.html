@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    
+    <body style="text-align: center;">
+    <form method="post" action="">
+
+    <h1>INSCRIPTION RN LICENCE</h1><br>
+
+    
+
+    <fieldset>
+    <legend><h3>INFORMATIONS PERSONELES</h3> </legend>
+    <label>Votre nom: </label>
+    <input type="text" name="nom" placeholder="votre nom?"><br><br>
+
+    <label>Votre prénom: </label>
+    <input type="text" name="prénom" placeholder="votre prénom?"><br><br>
+
+    <label>Votre age: </label>
+    <input type="number" name="age" placeholder="votre age?" min=0><br><br>
+
+    <label>La date de naissance: </label>
+    <input type="date" name="date de naissance"><br><br>
+
+    Votre adresse: <textarea rows=10 cols=20 name="adresse" placeholder="votre adresse?"></textarea><br><br>
+
+    <label>Votre Mot de passe: </label>
+    <input type="password" name="password" required  ><br><br>
+
+    <label>Retapez votre mdp: </label>
+    <input type="password" name="password" required><br><br>
+
+    <label>Votre email: </label>
+    <input type="email" name="email" placeholder="a-z@gmail.com"><br><br>
+
+    <label>l’URL du site de l’étudiant: </label>
+    <input type="url" name="url" ><br><br>
+
+    
+    </fieldset><br><br>
+    
+    <fieldset>
+    <legend>GESTION des groupes et des options</legend>
+     votre groupe: 
+    <input type="radio" name="groupe" value="groupe1" checked>groupe1
+    <input type="radio" name="groupe" value="groupe2">groupe2
+    <input type="radio" name="groupe" value="groupe3" >groue3<br><br>
+
+    <label>numéro de carte d'étudiant: </label>
+    <input type="text" name="num" placeholder="votre numéro de carte d'étudiant" ><br><br><br><br>
+
+    Choisissez les options que vous désirez:
+    <select>
+    <option>HTML</option>
+    <option>Android</option>    
+    <option>Net</option>
+    <option>Flex</option>
+    </select><br><br>
+
+    <label>text of security</label><input type="text" pattern="[I][N][S][A][T][0-9]{4}" >
+
+    </fieldset><br>
+    <input type="submit" value="valider">
+    <input type="reset" value="reinisialiser">
+    </form>
+    </body>
+
+    </html>
